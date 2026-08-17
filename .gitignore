@@ -1,0 +1,34 @@
+# ── Node ──
+node_modules/
+dist/
+*.local
+
+# ── Vite ──
+.vite/
+
+# ── Rust / Tauri (skills-manager) ──
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# ── Python (SkillEvaluator) ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── بيانات المهارات المستخرجة محلياً لعارض المهارات ──
+# (أزل السطر التالي إن أردت تضمين نسخ المهارات في المستودع)
+skill-explorer/data/
+
+# ── أسرار وبيئات ──
+.env
+.env.*
+
+# ── سجلات وملفات نظام ──
+*.log
+.DS_Store
+Thumbs.db
+
+# ── محررات ──
+.vscode/
+.idea/
