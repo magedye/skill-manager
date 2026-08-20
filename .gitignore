@@ -6,11 +6,7 @@ dist/
 # ── Vite ──
 .vite/
 
-# ── Rust / Tauri (skills-manager) ──
-src-tauri/target/
-src-tauri/gen/schemas/
-
-# ── Python (SkillEvaluator) ──
+# ── Python ──
 __pycache__/
 *.pyc
 .venv/
